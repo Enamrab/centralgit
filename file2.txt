@@ -1,0 +1,2 @@
+This .txt file in gitpractice repo
+We are demonstrating gitignore
