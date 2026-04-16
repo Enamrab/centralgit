@@ -1,2 +1,7 @@
-Git conflict demo from main
+<<<<<<< HEAD
+Keep it Git conflict demo from main
+=======
+This is in branch1
+conflict demo
+>>>>>>> branch1
 
