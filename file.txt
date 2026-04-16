@@ -1,2 +1,0 @@
-THIS is in main branch
-We are performing git conflict that occurs while merging branches
