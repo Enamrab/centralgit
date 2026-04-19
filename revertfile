@@ -2,4 +2,3 @@ This is revert file and will demonstrate git revert command on this
 We will revert the changes made in the second commit
 This was written in first commit
 
-This is teh content to be reverted
