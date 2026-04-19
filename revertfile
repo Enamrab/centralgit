@@ -2,3 +2,5 @@ This is revert file and will demonstrate git revert command on this
 We will revert the changes made in the second commit
 This was written in first commit
 
+This is the content to be removed.
+We are trying to revert the commit that is not on the head
