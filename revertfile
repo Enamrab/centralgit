@@ -2,6 +2,7 @@ This is revert file and will demonstrate git revert command on this
 We will revert the changes made in the second commit
 This was written in first commit
 
+HEAD
 This is the content to be removed.
 We are trying to revert the commit that is not on the head
 This is the final content.
@@ -15,3 +16,5 @@ git confuse ho gya hai ki beech wala content delate ho jayega to mile merge kais
 Kisko upar rakhunga!
 That's why revert mein CONFLICT ka warning aa raha hai
 
+
+parent of d564794 (commit to be reverted)
