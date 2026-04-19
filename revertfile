@@ -7,3 +7,11 @@ We are trying to revert the commit that is not on the head
 This is the final content.
 We will try to revert the second commit done.
 WE may encounter CONFLICT (merge)
+
+
+Conflict kyun hua ki:
+hum beech wala content delete kar rahein hain
+git confuse ho gya hai ki beech wala content delate ho jayega to mile merge kaise karunga
+Kisko upar rakhunga!
+That's why revert mein CONFLICT ka warning aa raha hai
+
