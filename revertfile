@@ -4,3 +4,6 @@ This was written in first commit
 
 This is the content to be removed.
 We are trying to revert the commit that is not on the head
+This is the final content.
+We will try to revert the second commit done.
+WE may encounter CONFLICT (merge)
