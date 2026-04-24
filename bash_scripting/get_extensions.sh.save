@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+
+
+
+
+get out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+!/bin/bash
+
+#Author: Enam Rab
+#Date created: 24/04
+#Last modified: 24/04
+
+#Description: 
+#Program demonstarting use of read command with flags -t -s -p
+
+#Usage:
+
+echo "Welcome to demo script 'for' illustrating read command"
+read -p "What is your first name?: " name 
+read -p "What is your surname/family name?: " surname
+read -n 4 -p "What is your extension number?: " extension_number
+read -n 4 -s  -p "What access code would you like to use when dialing in?: " code
+
+echo "$name  $surname $extension_number $code"
+
+
+
