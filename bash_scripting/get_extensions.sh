@@ -14,8 +14,10 @@
 read -p "What is your first name?: " name 
 read -p "What is your surname/family name?: " surname 
 read -n 4 -p "What is your extension number?: " extension_number  
+echo
 read -n 4 -s  -p "What access code would you like to use when dialing in?: " code  
+echo
+echo "$name,$surname,$extension_number,$code" >> extensions.csv
 
-echo "$name  $surname $extension_number $code"
 
 
