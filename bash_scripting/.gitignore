@@ -1,6 +1,4 @@
 
-#ignores all .txt files in git repo
-#will not add/ commit and do other stuffs
 
 *.txt
 
