@@ -15,6 +15,9 @@ echo "This script will count time to zero as per user input"
 
 #using getopts 
 
+#variabel for calculating time:
+total_seconds=""
+
 while getopts "m:s:" opt; do
 	case "$opt" in
 		m) echo "You entered $OPTARG minutes";
