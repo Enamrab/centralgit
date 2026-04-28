@@ -18,20 +18,21 @@ echo "This script will count time to zero as per user input"
 while getopts "m:s:" opt; do
 	case "$opt" in
 		m) echo "You entered $OPTARG minutes";
-			total_seconds=$(( $OPTARG*60 ))
-			while [[ ${total_seconds} -gt 0 ]]; do
-				echo "Time left: ${total_seconds}"
-				sleep 1
-				total_seconds=$((${total_seconds} - 1))
-			done;;
-		s) total_seconds=$OPTARG
-			while [[ ${total_seconds} -gt 0 ]]; do
-                                echo "Time left: ${total_seconds}"
-                                sleep 1  
-                                total_seconds=$((${total_seconds} - 1))
-                        done ;;
+			total_seconds=$(( ${total_seconds} +  $OPTARG*60 )) 
+			echo " --- ${total_seconds} ---" ;;
+		s) echo "You entered $OPTARG seconds"
+			total_seconds=$(( ${total_seconds} + $OPTARG )) 
+			echo " ---- ${total_seconds} ----"  ;;
 		?);;
 	esac
 done
+
+echo "Total time entered in seconds: ${total_seconds} "
+
+ while [[ ${total_seconds} -gt 0 ]]; do
+	 echo "Time left: ${total_seconds}"
+         sleep 1
+         total_seconds=$((${total_seconds} - 1))
+ done
 
 echo "Times Up!"
